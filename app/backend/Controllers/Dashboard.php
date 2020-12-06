@@ -13,7 +13,8 @@ class Dashboard extends BaseController
 		if($this->session->has('adminData') == NULL){			
 			//if user not logged in then redirect to login
 			return redirect()->to(base_url());
-			exit;
+			//exit;
+			die();
 		}		
 		$this->data['title'] ='Admin Dashboard';
 		return view('dashboard/dashboard',$this->data);
