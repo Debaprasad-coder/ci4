@@ -1,0 +1,15 @@
+----------------------------------
+	Set up Process
+----------------------------------
+1.) clone th repo from https://github.com/Debaprasad-coder/ci4.git
+
+2.) create a directory under htdocs(XAMPP) named as ci4 and paste all cpoied file,folder to it	
+
+3.) configure 
+	3.1.) baseUrl into App/backend/config/App.php for Backend
+	3.2.) baseUrl into App/frontend/config/App.php for frontend
+4.) configure database (app_development.sql) as per requirements: username,password
+
+5.) run the application  by the url 
+	5.1.):"http://localhost/ci4/public"
+	5.2.):"http://localhost/ci4/resource"
