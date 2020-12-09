@@ -11,5 +11,5 @@
 4.) configure database (app_development.sql) as per requirements: username,password
 
 5.) run the application  by the url 
-	5.1.):"http://localhost/ci4/public"
-	5.2.):"http://localhost/ci4/resource"
+	5.1.):"http://localhost/ci4/public"  for frontend
+	5.2.):"http://localhost/ci4/resource" for backend
